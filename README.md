@@ -94,8 +94,6 @@ For detecting outliers, the team can utilize various statistical methods and vis
 
 #### Data Structure
 
-Sure, here is the data structure summarized in a table format:
-
 | Column                   | Non-Null Count | Dtype   |
 |--------------------------|---------------|---------|
 | ID                       | 14,999        | int64   |
@@ -176,7 +174,7 @@ In the visualization stage of our analysis, we aim to gain deeper insights into 
 
 By employing a combination of these data visualization types, we will effectively explore and communicate the patterns, trends, and relationships present in the Waze dataset. Visualizations play a crucial role in making complex data more accessible and actionable, facilitating the decision-making process and generating valuable insights for further analysis.
 
-*Note:* The visualizations cna be found in the jupiter notebook on the repo
+*Note:* The visualizations can be found in the jupiter notebook on the repo
 
 ### Distributions
 
