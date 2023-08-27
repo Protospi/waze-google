@@ -1,5 +1,11 @@
 # Project Name: Waze User Churn Prediction
 
+
+<div style = 'display: flex; justify-content: center; align-items: center'>
+    <img src = 'Waze.jpg'>
+</div>
+
+
 ## Introduction
 
 This Git project aims to develop a machine learning model to predict user churn for Waze. The project has progressed with the completion of a project proposal and initial Python data inspection and organization on Waze's user data.
@@ -341,3 +347,35 @@ Questions:
 6. Did newer uses have greater representation in this dataset than users with longer tenure? How do you know?
 
     No. Users of all tenures from brand new to ~10 years were relatively evenly represented in the data. This is borne out by the histogram for n_days_after_onboarding, which reveals a uniform distribution for this variable.
+
+## Hypothesis Test
+
+### Introduction
+As part of our ongoing efforts to understand user behavior and enhance Waze user experience, we conducted a hypothesis test to investigate the difference in the mean number of rides between Android and iPhone users. This analysis aims to provide insights into potential distinctions in usage patterns between these two user groups.
+
+### Hypothesis
+- Null Hypothesis (𝐻₀): The mean number of rides for Android users is equal to the mean number of rides for iPhone users.
+- Alternative Hypothesis (𝐻𝐴): The mean number of rides for Android users is not equal to the mean number of rides for iPhone users.
+
+### Test Results
+We performed a two-sample t-test using a significance level (α) of 0.05. The test yielded the following results:
+- Test Statistic (t-statistic): 1.4635
+- p-value: 0.1434
+
+### Conclusion
+Based on the results of our hypothesis test, the p-value (0.1434) is greater than the significance level (α = 0.05). This indicates that we do not have sufficient statistical evidence to reject the null hypothesis. Therefore, we conclude that, at the current significance level, there is no statistically significant difference in the mean number of rides between Android users and iPhone users on the Waze platform.
+
+### Business Insights
+While we did not find a significant difference in the mean number of rides between Android and iPhone users, this insight has valuable implications for our strategies moving forward:
+- **User Behavior Understanding:** Our findings suggest that Android and iPhone users exhibit similar ride usage patterns. This insight can guide feature development and user engagement strategies that target both user groups collectively.
+- **Feature Development:** We can focus on creating features and updates that cater to a unified user experience, rather than targeting Android and iPhone users separately based on ride counts.
+- **Resource Allocation:** With similar usage patterns, resource allocation for support, marketing, and feature enhancements can be optimized for a broader user base.
+
+### Next Steps
+While this analysis provides valuable insights, further investigation into user behavior factors beyond ride counts may enhance our understanding. We recommend considering additional variables such as trip lengths, app engagement, and user feedback to gain a more comprehensive view.
+
+In conclusion, our hypothesis test results indicate no significant difference in the mean number of rides between Android and iPhone users. This insight positions us to refine our strategies for a more unified approach to enhancing the Waze user experience.
+
+---
+
+For a more in-depth analysis, including detailed statistical methods and visualizations, please refer to the complete analysis report in the hypothesis test lab jupiter notebook.
